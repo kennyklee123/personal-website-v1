@@ -1,0 +1,100 @@
+
+html{
+  height: 100%;
+  overflow: hidden;
+}
+
+body{    /* Requirement 10 */
+  text-align:center;  /* Requirement 2 */
+  font-family: Arial, Helvetica, sans-serif;  /* Requirement 1 */
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+p {
+  margin: auto;
+  width: 60%;
+  border: 3px;
+  padding: 10px;
+}
+
+figcaption{
+   padding: 45px;
+   font-size: 20px;
+
+}
+
+img.resize{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: inherit; /* Requirement 16 */
+
+}
+a:hover {     /* Requirement 14 */
+    color:red;
+}
+h1, h2 { /* Requirement 11 */
+	color: orange;
+  font-size: 40px;
+}
+h2.a{ /* Requirement 15 */
+  visibility: visible;  /* Requirement 21 */
+  color:red;
+}
+
+.table1 {  /* Requirement 12 */
+  border-spacing: 15px 50px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.pic {
+  display: inline;    /* Requirement 17 */
+}
+
+.clear{
+  clear: both; /* Requirement 18 */
+  text-align: left;
+}
+
+.disclaimer {
+  background-color: lightblue;  /* Requirement 3 */
+  border-style: dashed; /* Requirement 4 */
+  font-weight: bold;
+  font-size: 1.875em; /* 30px = 1.875 */
+  overflow: scroll; /* Requirement 19*/
+  height: 100px; /* Requirement 8 */
+  width: 100%; /* Requirement 6 */ /* Requirement 9 */
+}
+
+#contact {   /*-- Requirement 7 -- */
+  list-style: none;
+}
+
+#bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+#kenny { /* Requirement 13 */
+  position: relative;  /* Requirement 20 */
+  left: 0px;
+  top: 0px;
+  z-index: -1;  /* Requirement 22 */
+}
+#main-header{
+  text-align:center;
+  font-size: 30px;
+  background-color:black;
+  color:white;
+  padding-top: 40px;      /* Requirement 5*/
+  padding-right: 30px;
+  padding-bottom: 54px;
+  padding-left: 60px;
+}
