@@ -36,7 +36,7 @@ export const projectImage = graphql`
 
 export const pageQuery = graphql`
   query {
-    headshotImage: file(relativePath: { eq: "kelli.jpg" }) {
+    headshotImage: file(relativePath: { eq: "me.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 250) {
           ...GatsbyImageSharpFluid_noBase64

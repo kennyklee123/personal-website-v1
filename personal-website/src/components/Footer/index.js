@@ -12,8 +12,8 @@ const Footer = (props) => (
         </ul>          
 
         </div>
-        <p>Site created by Kelli Blalock using Gatsby.</p>
-        <p>Check out <a href="https://github.com/kellim/kelliblalock-dot-com">the code for this site</a>.</p>
+        <p>This site is created by Kenny Kai Lee using Gatsby!</p>
+        <p>Check out <a href="https://github.com/kennyklee123/kenny-k-lee-website">the code for this site</a>.</p>
         <Socials />
     </footer>
  )
