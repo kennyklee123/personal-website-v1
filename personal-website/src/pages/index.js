@@ -12,7 +12,7 @@ import { checkPropTypes } from 'prop-types';
 
 const IndexPage = (props) => (
   <Layout>
-    <SEO title="Kelli Blalock" keywords={[`seattle software engineer`, `seattle web developer`, `bellevue web developer`, `javascript developer`, `web developer portfolio`]} />
+    <SEO title="Kenny Kai Lee" keywords={[`los angeles software engineer`, `los angeles web developer`, `software engineer` , `backend engineer`, `kenny kai lee portfolio`, `frontend engineer`]} />
     <div>
       <Main />
       <About data={props.data} />
@@ -53,12 +53,6 @@ export const pageQuery = graphql`
       ...projectImage
     }
     project4: file(relativePath: { eq: "project4.png" }) {
-      ...projectImage
-    },
-    project5: file(relativePath: { eq: "project5.png" }) {
-      ...projectImage
-    },
-    project6: file(relativePath: { eq: "project6.png" }) {
       ...projectImage
     },
   }

@@ -34,6 +34,7 @@ const ProjectList = (props) => (
                 />
             )}
         </ul>
+        <h2> <a id = "github" href="https://github.com/kennyklee123">More Projects Here On My Github</a></h2>     
     </div>
   )
 
