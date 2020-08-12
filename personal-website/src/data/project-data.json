@@ -1,45 +1,32 @@
 [
 
   {
-    "name": "Musical Chairs: Automated",
-    "image": "project6",
-    "description": "React app using the <audio> element that lets you automate the starting and stopping of music in a Musical Chairs game.",
-    "gitHubLink": "https://github.com/kellim/musical-chairs",
-    "demoLink": "https://musicalchairs.kelli.app/"
-  },
-  {
-    "name": "Hearthstone Card Search",
-    "image": "project5",
-    "description": "This Node.js/Express app gets card data from an API and lets you search cards and filter by multiple classes, sets, types, rarities, tribes, and mechanics.",
-    "gitHubLink": "https://github.com/kellim/hearthstone-card-search-app",
-    "demoLink": "https://hscardsearch.glitch.me/"
-  },
-  {
-    "name": "Hearthstone Deck Saver",
-    "image": "project3",
-    "description": "Web app built with JavaScript that lets you save copied Hearthstone® decks to the browser's local storage. Note: Hearthstone is an online collectible card game by Blizzard. I'm not affiliated with Blizzard, but use their trademarked Heartstone name as well as card info in accordance to their policy.",
-    "gitHubLink": "https://github.com/kellim/hs-deck-saver",
-    "demoLink": "https://decksaver.kelli.app"
-  },
-  {
-    "name": "Meditation Timer",
-    "image": "project4",
-    "description": "This web app built with JavaScript lets you input the number of minutes you'd like to meditate and counts down from that time to zero alerting you with a sound and a popup window when the time is up. You can also reset the timer as well as pause, stop, and resume the countdown.",
-    "gitHubLink": "https://github.com/kellim/meditation-timer",
-    "demoLink": "https://meditationtimer.kelli.app"
-  },
-  {
-    "name": "Farmer's Market Finder",
+    "name": "ATM Simulation Android App",
     "image": "project1",
-    "description": "Web app built with JavaScript, jQuery, Bootstrap and Knockout that lets visitors enter a US zip code and shows nearby Farmers Markets based on data obtained from the USDA National Farmers Market Directory on a Google Map.",
-    "gitHubLink": "https://github.com/kellim/farmers-market-finder",
-    "demoLink": "https://farmersmarkets.kelli.app"
+    "description": "This is an Android app that simulates a real life experience of using an ATM. You can transfer, deposit, withdraw, and check the balance of your account.",
+    "gitHubLink": "https://github.com/kennyklee123/ATMSimulation",
+    "demoLink": "https://docs.google.com/presentation/d/1G9f5kBeyzaBxEE4iSTSRsq--pX_k17U5e4-DYyhhmgQ/edit#slide=id.g35f391192_00"
   },
   {
-    "name": "Link Collector",
+    "name": "Live Chatting Application",
     "image": "project2",
-    "description": "Multi-user bookmarking web app built with Python and Flask that users can log in to with Google. Admin users can create categories and collections of links and edit or delete any links. Regular users can add links and update or delete their own links.",
-    "gitHubLink": "https://github.com/kellim/link-collector",
-    "demoLink": "https://links.pythonanywhere.com"
+    "description": "Web app built using React, Node.js, Express.js, and Socket.io that allows users to enter create and join live chat rooms. Each chat room can support up to 25 users at a time!",
+    "gitHubLink": "https://github.com/kennyklee123/Chat-App-in-React",
+    "demoLink": "https://realtimereactchatapp.netlify.app/"
+  },
+  {
+    "name": "COVID-19 Tracker",
+    "image": "project3",
+    "description": "This React project uses the Covid-19 API to fetch data from John Hopkins University on the current situation of Covid 19 for every major country. You can either see the graph a line chart of the global statics, or a bar chart for your specified country!",
+    "gitHubLink": "https://github.com/kennyklee123/The-Virus-Tracker",
+    "demoLink": "https://anothervirustracker.netlify.app/"
+  },
+ 
+  {
+    "name": "Weather App thats a PWA",
+    "image": "project4",
+    "description": "This Web App that allows users to search up the weather conditions of any city in the world! This weather-app is built using React JS and the weather information comes from Open Weather API",
+    "gitHubLink": "https://github.com/kennyklee123/PWA-Weather-App",
+    "demoLink": "https://pwa-weather-react-app.netlify.app/"
   }
 ]
