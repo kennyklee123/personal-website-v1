@@ -1,0 +1,33 @@
+.main {
+    text-align: center;
+    background-color: $light_mint;
+    color: $dark_mint;
+    padding: #{$component_padding} 1rem;
+    margin: 0;
+
+    h1 {
+        font-size: 5.4rem;
+
+        @media #{$small} {
+            font-size: 7.4rem;
+        }
+
+        @media #{$medium} {
+            font-size: 8.4rem;
+        }
+    }
+
+    h2 {
+        font-size: 4.4rem;
+        margin-bottom: .25rem;
+        font-weight: 400;
+
+        @media #{$small} {
+            font-size: 5.4rem;
+        }
+
+        @media #{$medium} {
+            font-size: 6.4rem;
+        }
+    }
+}

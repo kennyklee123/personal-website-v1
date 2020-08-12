@@ -1,0 +1,110 @@
+.projectList {
+    background-color: $light_mint;
+    padding: #{$component_padding} #{$side_padding};
+
+    h2 {
+        margin-bottom: 3rem; /* Looks better with extra space before projects */
+
+        @media #{$large} {
+            margin-bottom: 6rem;
+        }
+    }
+
+    ul {
+        margin: 0 1rem;
+
+        li {
+            list-style-type: none;
+            padding-bottom: 3rem;
+            max-width: 55rem;
+            margin: 0 auto;
+
+            @media #{$medium} {
+                max-width: 120rem;
+                display: grid;
+                grid-column-gap: 3rem;
+                grid-template-rows: 4rem auto;
+                grid-template-areas:
+                "image title title"
+                "image info info";
+                margin-bottom: 5rem;
+
+                &:nth-child(even) {
+                    grid-template-areas:
+                    "title title image"
+                    "info info image";
+                }
+            }
+
+            @media #{$large} {
+                grid-column-gap: 20rem;
+                grid-template-rows: 5rem auto;
+                margin-bottom: 8rem;
+            }
+
+            @media #{$extraLarge} {
+                grid-column-gap: 25rem;
+            }
+
+            h3 {
+                color: $dark_mint;
+                font-size: 3.2rem;
+                font-weight: 400;
+                margin-bottom: 1.5rem;
+                text-align: center;
+
+                @media #{$medium} {
+                    grid-area: title;
+                  }
+            }
+          
+            img  {
+                border-radius: 5px;
+            }
+        
+        .projectImage {
+                max-width: 90rem;
+                margin: 0 auto;
+
+                @media #{$medium} {
+                    width: 25rem;
+                    grid-area: image;
+                    align-self: center;
+                }
+
+                @media #{$large} {
+                    width: 37.5rem;
+                }
+
+                @media #{$extraLarge} {
+                    width: 45rem;
+                }
+            }
+
+            .projectInfo {
+                display: flex;
+                flex-direction: column-reverse;
+
+                @media #{$medium} {
+                    grid-area: info;
+                    align-self: start;
+                    flex-direction: column;
+                }
+            }
+
+            .links {
+                display: flex;
+                justify-content: space-around;
+                margin-top: .5rem;
+    
+                a {
+                    font-size: 2.2rem;
+
+                    @media #{$medium} {
+                        font-size: 2.6rem;
+                    }
+                }
+            }
+        }
+    }
+}

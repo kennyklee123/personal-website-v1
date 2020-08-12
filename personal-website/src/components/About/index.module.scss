@@ -1,0 +1,48 @@
+.about {
+
+    padding: 0 #{$side_padding} #{$component_padding} #{$side_padding};
+    max-width: 110rem;
+  
+    img {
+      border-radius: 50%;
+    }
+  
+     .headshot {
+      max-width: 15rem; 
+      transform: translate(0, -7.5rem); /* issue using absolute positioning with gatsby-image */
+      margin: 0 auto;
+  
+       @media #{$medium} {
+        align-self: center;
+        margin: 0;
+        max-width: 25rem;
+        transform: none;
+      }
+    }
+  
+    h2 {
+      padding-top: 1rem; /* Extra padding under headshot */
+  
+      @media #{$medium} {
+        padding-top: 0;
+        margin-left: -25rem; /* Needed for centering */
+      }
+    }
+  
+    .myInfo {
+      padding: 0;
+      margin-top: -7.5rem;
+  
+      @media #{$medium} {
+        margin: 0;
+      }
+    }
+  
+    @media #{$medium} {
+      padding-top: #{$component_padding};
+      display: grid;
+      grid-template-columns: 25rem auto;
+      grid-column-gap: 2rem;
+      margin: 0 auto;
+    }
+  }

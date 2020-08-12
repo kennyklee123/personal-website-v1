@@ -1,0 +1,18 @@
+.contact {
+
+  padding: #{$component_padding} #{$side_padding} #{$component_padding} #{$side_padding};
+
+  p {
+      text-align: center;
+    }
+
+    a {
+      font-weight: 700;
+      text-decoration: none;
+      color: $dark_mint;
+
+      &:hover {
+          text-decoration: underline;
+      }
+    }
+}
