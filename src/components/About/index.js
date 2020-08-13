@@ -10,7 +10,7 @@ const About = (props) => (
         <div className={styles.myInfo}>
             <h2>About</h2>
             <p> Hi, I'm Kenny and I am a rising senior at Cal Poly Pomona majoring in Computer Science with an
-                expected graduation date of May 2021. My primary work has been in backend and web development with languages like
+                expected graduation date of Spring Semester 2021. My primary work has been in backend and web development with languages like
                 Java, Javascript, SQL, and Python.  I also use frameworks/technologies like React, Node.js, Express.js,and Git. 
                 In my free time I enjoy building out side-projects, gaming, and enjoying the outdoors!
                 <br></br>
