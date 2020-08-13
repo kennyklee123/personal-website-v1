@@ -11,7 +11,7 @@ const About = (props) => (
             <h2>About</h2>
             <p> Hi, I'm Kenny and I am a rising senior at Cal Poly Pomona majoring in Computer Science with an
                 expected graduation date of Spring Semester 2021. My primary work has been in backend and web development with languages like
-                Java, Javascript, SQL, and Python.  I also use frameworks/technologies like React, Node.js, Express.js,and Git. 
+                Java, Javascript, SQL, and Python.I also use frameworks and technologies like React, Node.js, Express.js,and Git. 
                 In my free time I enjoy building out side-projects, gaming, and enjoying the outdoors!
                 <br></br>
                 Click on the PDF icon above to view my resume!
