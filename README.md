@@ -1,6 +1,6 @@
 # My Personal Website!
 Hello! This repo is for my personal website [kennylee.me](https://kennylee.me).
-![image](https://user-images.githubusercontent.com/55815393/90320396-e6472f00-def5-11ea-9020-0030584113b5.png)
+![image](https://user-images.githubusercontent.com/55815393/90320402-fd861c80-def5-11ea-9df1-516009fc229e.png)
 
 
 ## Technolgies Used
